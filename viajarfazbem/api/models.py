@@ -1,8 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
-
 
 class Country(models.Model):
     objects = None
@@ -12,13 +9,14 @@ class Country(models.Model):
     def __str__(self):
         return self.name
 
-class Category(models.Model):
-        objects = None
-        name = models.CharField(max_length=100)
-        slug = models.CharField(max_length=100)
 
-        def __str__(self):
-            return self.name
+class Category(models.Model):
+    objects = None
+    name = models.CharField(max_length=100)
+    slug = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
 
 
 class Routes(models.Model):
@@ -27,6 +25,7 @@ class Routes(models.Model):
 
     def __str__(self):
         return self.path
+
 
 class City(models.Model):
     objects = None
@@ -37,6 +36,7 @@ class City(models.Model):
     def __str__(self):
         return self.name
 
+
 class Item(models.Model):
     objects = None
     hotel_name = models.CharField(max_length=150)
@@ -45,10 +45,11 @@ class Item(models.Model):
     price = models.DecimalField(max_digits=6, decimal_places=2, default=0.01, blank=False)
     city = models.ManyToManyField(City, related_name="city")
     category = models.ManyToManyField(Category, related_name='category')
-    country = models.ManyToManyField(Country,related_name='country')
+    country = models.ManyToManyField(Country, related_name='country')
 
     def __str__(self):
         return self.hotel_name
+
 
 class Vitrine(models.Model):
     objects = None

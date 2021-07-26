@@ -26,6 +26,11 @@ class RoutesViewSet(viewsets.ModelViewSet):
     serializer_class = RoutersSerializer
 
 
+class ItemViewSet(viewsets.ModelViewSet):
+    queryset = Item.objects.all().order_by("hotel_name")
+    serializer_class = ItemSerializer
+
+
 class VitrineViewSet(viewsets.ModelViewSet):
     queryset = Vitrine.objects.all().order_by("title")
     serializer_class = VitrineSerializer
@@ -36,18 +41,3 @@ class VitrineViewSet(viewsets.ModelViewSet):
         routes = (dados['routes'])
         queryset = VitrineSerializer(Vitrine.objects.filter(routes__path=routes), many=True)
         return Response(queryset.data, status=status.HTTP_200_OK)
-
-
-
-
-class ItemViewSet(viewsets.ModelViewSet):
-    queryset = Item.objects.all().order_by("hotel_name")
-    serializer_class = ItemSerializer
-
-    # def create(self, request, *args, **kwargs):
-    #     dados = request.data
-    #     item = (dados['item'])
-    #     queryset = VitrineSerializer(Vitrine.objects.all(routes__path=item), many=True)
-    #     print(queryset)
-    #
-    #     return Response(queryset.data, status=status.HTTP_201_CREATED)
