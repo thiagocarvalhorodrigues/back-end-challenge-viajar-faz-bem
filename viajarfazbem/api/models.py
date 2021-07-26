@@ -23,7 +23,7 @@ class Category(models.Model):
 
 class Routes(models.Model):
     objects = None
-    path = models.CharField(max_length=50)
+    path = models.CharField(max_length=100)
 
     def __str__(self):
         return self.path

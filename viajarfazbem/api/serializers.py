@@ -20,27 +20,25 @@ class CountrySerializer(serializers.ModelSerializer):
 class RoutersSerializer(serializers.ModelSerializer):
     class Meta:
         model = Routes
-        fields = "path",
+        # fields = "path",
+        fields = "__all__"
 
 class ItemSerializer(serializers.ModelSerializer):
+   city = CitySerializer(read_only=True, many=True)
+   country = CountrySerializer(read_only=True, many=True)
+   category = CategorySerializer(read_only=True, many=True)
    class Meta:
         model = Item
         fields = "hotel_name", "slug", "image", "city", "country", "category", "price"
 
-   city = CitySerializer(read_only=True, many=True)
-   country = CountrySerializer(read_only=True, many=True)
-   category = CategorySerializer(read_only=True, many=True)
+
 
 
 class VitrineSerializer(serializers.ModelSerializer):
+    item = ItemSerializer(read_only=True, many=True)
+    routes = RoutersSerializer(read_only=True, many=True)
+
     class Meta:
         model = Vitrine
         # fields = "title", "subtitle", "routes", "item"
         fields = "__all__"
-
-
-    item = ItemSerializer(read_only=True, many=True)
-    routes = RoutersSerializer(read_only=True, many=True)
-
-
-
