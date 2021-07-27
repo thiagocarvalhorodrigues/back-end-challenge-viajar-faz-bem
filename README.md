@@ -1,4 +1,4 @@
-# back-end-challenge-viajar-faz-bem
+# back-end-challenge-viajar-faz-bem.
 Avaliação para vaga de Backend Pleno Python
 
 
@@ -13,6 +13,9 @@ Senha: 1234
 
 Obs: todos as imagens dos links das urls estão armazenadas nos servidores, dentro de (storage) containers da Azure.
 * APP desenvolvido dentro das normas da PEP8.
+* Python==3.9.6
+* djangorestframework==3.12.4
+
 
 # Diferenciais implementados
 * Deploy no servidore da Hostgator.
@@ -38,8 +41,9 @@ O banco de dados consta em núvem, não sendo necessário baixar o Postgres Serv
 basta pular para p item 3.
 
 2.1 Caso desejar instalar o banco localmente: 
-Instalar o banco de dados Postgres Server, acesse os ==> Link's úteis < == 
-Acesse o <i>settings.py</i>  e altere os dados  em <i>'DATABASES'</i> e insira os dados do banco..
+Instalar o banco de dados Postgres Server:
+* acesse acima os ==> Link's úteis < == 
+* Acesse o <i>settings.py</i>  e altere os dados  em <i>'DATABASES'</i> e insira os dados do banco..
 
 2.2 Crie um usuário e senha para logar no Django Admin: 
 * python manage.py createsuperuser
@@ -54,7 +58,11 @@ senha: 1234
 
 <i>Depois tente acessar e logar no Django Admin com o usuário e senha criado acima: http://localhost:8000/admin/ </i>
 
-
+# Agradecimentos
+ 
+ Venho agradecer por esse desafio, pois foi muito bacana entar desenvolvendo, espero que tenham gostado 
+ e que possamos a vir a trabalhar juntos em breve.
+ MUITO OBRIGADO.
 
 
 
