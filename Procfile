@@ -1,1 +1,1 @@
-web: gunicorn viajarfazbem.wsgi -b 0.0.0.0:$GUNICORN_PORT
+web: gunicorn viajarfazbem.wsgi -b 0.0.0.0:8000
