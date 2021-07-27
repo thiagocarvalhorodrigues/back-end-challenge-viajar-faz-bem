@@ -2,28 +2,28 @@
 Avaliação para vaga de Backend Pleno Python
 
 
-#Projeto já está no servidor rodando.
+# Projeto já está no servidor rodando.
 
 Realizado o deploy da aplicação nos servidores da Hostagador.
 Acesso da aplicação: http://162.240.3.106:37777/ ou http://162.240.3.106:37777/admin  ( Para realizar os devidos testes manuais da aplicação ).
 Usuário: thiago /
 Senha: 1234
 
-#Informações.
+# Informações.
 
 Obs: todos as imagens dos links das urls estão armazenadas nos servidores, dentro de (storage) containers da Azure.
 * APP desenvolvido dentro das normas da PEP8.
 
-#Diferenciais implementados
+# Diferenciais implementados
 * Deploy no servidore da Hostgator.
 * Alterado banco de dados de sqlite para <i>POSTGRESQL.</i>
 * Criado storage na plataforma Azure para armazenar as imagens.
 * Implementando atributo "observacao":  dentro do ITEM.
 
-#Link's úteis.
+# Link's úteis.
 banco de dados PostreSQL v.13 Link para donwload (https://www.postgresql.org/).
 
-#Configurando o projeto
+# Configurando o projeto
 
 1 Baixe o projeto:
 
