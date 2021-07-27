@@ -6,7 +6,6 @@ router = routers.DefaultRouter()
 router.register(r'city', CityViewSet)
 router.register(r'country', CountryViewSet)
 router.register(r'category', CategoryViewSet)
-router.register(r'routes', RoutesViewSet)
 router.register(r'item', ItemViewSet)
 router.register(r'vitrine', VitrineViewSet)
 

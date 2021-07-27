@@ -1,3 +1,4 @@
+from django.contrib.postgres.fields import ArrayField
 from django.db import models
 
 
@@ -17,14 +18,6 @@ class Category(models.Model):
 
     def __str__(self):
         return self.name
-
-
-class Routes(models.Model):
-    objects = None
-    path = models.CharField(max_length=100)
-
-    def __str__(self):
-        return self.path
 
 
 class City(models.Model):
@@ -55,7 +48,7 @@ class Vitrine(models.Model):
     objects = None
     title = models.CharField(max_length=255)
     subtitle = models.CharField(max_length=255)
-    routes = models.ManyToManyField(Routes, related_name='routes')
+    routes = ArrayField(models.CharField(max_length=200), blank=True, default="{}")
     item = models.ManyToManyField(Item, related_name='item')
 
     def __str__(self):
