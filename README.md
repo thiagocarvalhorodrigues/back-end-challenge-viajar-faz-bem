@@ -5,9 +5,9 @@ Avaliação para vaga de Backend Pleno Python
 # Projeto já está no servidor rodando.
 
 Realizado o deploy da aplicação nos servidores da Hostagador.
-Acesso da aplicação: http://162.240.3.106:37777/ ou http://162.240.3.106:37777/admin  ( Para realizar os devidos testes manuais da aplicação ).
-Usuário: thiago /
-Senha: 1234
+* Acesso da aplicação: http://162.240.3.106:37777/ ou http://162.240.3.106:37777/admin  ( Para realizar os devidos testes manuais da aplicação ).
+* Usuário: thiago 
+* Senha: 1234
 
 # Informações.
 
@@ -53,8 +53,8 @@ Instalar o banco de dados Postgres Server:
 
 * Acesse no navegador a url: http://localhost:8000
 
-usuário: thiago /
-senha: 1234
+* usuário: thiago 
+* senha: 1234
 
 <i>Depois tente acessar e logar no Django Admin com o usuário e senha criado acima: http://localhost:8000/admin/ </i>
 
