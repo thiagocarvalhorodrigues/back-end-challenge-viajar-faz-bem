@@ -39,6 +39,7 @@ class Item(models.Model):
     city = models.ManyToManyField(City, related_name="city")
     category = models.ManyToManyField(Category, related_name='category')
     country = models.ManyToManyField(Country, related_name='country')
+    observacao = models.CharField(max_length=1024, default='')
 
     def __str__(self):
         return self.hotel_name

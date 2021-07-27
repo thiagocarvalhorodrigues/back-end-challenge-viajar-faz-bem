@@ -25,9 +25,10 @@ class ItemSerializer(serializers.ModelSerializer):
     country = CountrySerializer(read_only=True, many=True)
     category = CategorySerializer(read_only=True, many=True)
 
+
     class Meta:
         model = Item
-        fields = "hotel_name", "slug", "image", "city", "country", "category", "price"
+        fields = "hotel_name", "slug", "image", "city", "country", "category", "price", "observacao"
 
 
 class VitrineSerializer(serializers.ModelSerializer):
