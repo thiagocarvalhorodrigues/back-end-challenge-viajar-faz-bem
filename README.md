@@ -1,7 +1,13 @@
 # back-end-challenge-viajar-faz-bem.
 Avaliação para vaga de Backend Pleno Python
 
-
+# As potenciais melhorias foram:
+* Criação da documentção  da API com  SWAGGER.
+* Criação de testes unitários.
+* Ajustando erro no campo ArrayField.
+* Ajustado as rotas "/destinos" "/".
+* Retirado no Jason o campo "Observação".
+* Ajustado requirements.txt..
 # Projeto já está no servidor rodando.
 
 Realizado o deploy da aplicação nos servidores da Hostagador.
