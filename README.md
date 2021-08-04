@@ -48,12 +48,12 @@ git clone https://github.com/thiagocarvalhorodrigues/back-end-challenge-viajar-f
 
 <i>Banco de dados Postgres.
 O banco de dados consta em núvem, não sendo necessário baixar o Postgres Server,</i>
-basta pular para p item 3.
+basta pular para para o  item 3.
 
 2.1 Caso desejar instalar o banco localmente: 
 Instalar o banco de dados Postgres Server:
 * acesse acima os ==> Link's úteis < == 
-* Acesse o <i>settings.py</i>  e altere os dados  em <i>'DATABASES'</i> e insira os dados do banco..
+* Acesse o <i>settings.py</i>  e altere os dados  em <i>'DATABASES'</i> e insira os dados do banco.
 
 2.2 Crie um usuário e senha para logar no Django Admin: 
 * python manage.py createsuperuser
