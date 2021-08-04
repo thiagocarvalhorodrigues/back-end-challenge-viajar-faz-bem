@@ -6,10 +6,14 @@ Avaliação para vaga de Backend Pleno Python
 * Criação de testes unitários.
 * Ajustando erro no campo ArrayField.
 * Ajustado as rotas "/destinos" "/".
-* Retirado no Jason o campo "Observação".
-* Ajustado requirements.txt..
-# Projeto já está no servidor rodando.
+* Retirado no Json o campo "Observação".
+* Ajustado requirements.txt.
 
+# Instruções da API SWAGGER:
+* Layout API SWAGGER: http://127.0.0.1:8000/docs/
+* Schema API SWAGGER: http://127.0.0.1:8000/openapi/
+
+# Projeto já está no servidor rodando.
 Realizado o deploy da aplicação nos servidores da Hostagador.
 * Acesso da aplicação: http://162.240.3.106:37777/ ou http://162.240.3.106:37777/admin  ( Para realizar os devidos testes manuais da aplicação ).
 * Usuário: thiago 
