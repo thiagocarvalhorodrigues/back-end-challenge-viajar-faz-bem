@@ -1,4 +1,3 @@
-# Create your views here.
 from .serializers import *
 from .models import *
 from rest_framework.response import Response
@@ -30,10 +29,9 @@ class VitrineViewSet(viewsets.ModelViewSet):
     queryset = Vitrine.objects.all().order_by("title")
     serializer_class = VitrineSerializer
 
-    ## Função criada com POST, passando como parâmentro o Payload recebdo um Json ##
+    """ Função criada com POST, recendo como parâmentro o Payload recebdio um json """
     def create(self, request, *args, **kwargs):
         dados = request.data
-        routes = (dados['routes'])
-        routes = routes.replace("[", "{").replace("]", "}")
-        queryset = VitrineSerializer(Vitrine.objects.filter(routes=routes), many=True)
+        routes_request = (dados['routes'])
+        queryset = VitrineSerializer(Vitrine.objects.filter(routes__contains=routes_request), many=True)
         return Response(queryset.data, status=status.HTTP_200_OK)

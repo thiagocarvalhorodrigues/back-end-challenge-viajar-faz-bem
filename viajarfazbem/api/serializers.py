@@ -28,7 +28,7 @@ class ItemSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Item
-        fields = "hotel_name", "slug", "image", "city", "country", "category", "price", "observacao"
+        fields = "hotel_name", "slug", "image", "city", "country", "category", "price"
 
 
 class VitrineSerializer(serializers.ModelSerializer):

@@ -1,4 +1,3 @@
-#
 from django.contrib.postgres.fields import ArrayField
 from django.db import models
 
@@ -40,7 +39,6 @@ class Item(models.Model):
     city = models.ManyToManyField(City, related_name="city")
     category = models.ManyToManyField(Category, related_name='category')
     country = models.ManyToManyField(Country, related_name='country')
-    observacao = models.CharField(max_length=1024, default='')
 
     def __str__(self):
         return self.hotel_name
@@ -50,7 +48,7 @@ class Vitrine(models.Model):
     objects = None
     title = models.CharField(max_length=255)
     subtitle = models.CharField(max_length=255)
-    routes = ArrayField(models.CharField(max_length=200), blank=True, default="{}")
+    routes = ArrayField(models.CharField(max_length=200), blank=True, default=list)
     item = models.ManyToManyField(Item, related_name='item')
 
     def __str__(self):
