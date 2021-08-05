@@ -42,7 +42,7 @@ Obs: todos as imagens dos links das urls estão armazenadas nos servidores, dent
 # Link's úteis.
 banco de dados PostreSQL v.13 Link para donwload (https://www.postgresql.org/).
 
-# Configurando o projeto
+# Configurando o projeto localmente
 
 1 Baixe o projeto:
 
