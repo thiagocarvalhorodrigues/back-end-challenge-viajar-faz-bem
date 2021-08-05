@@ -1,7 +1,7 @@
-# back-end-challenge-viajar-faz-bem. 🧑🏻‍🚀
+#  🧑🏻‍🚀back-end-challenge-viajar-faz-bem.
 Avaliação para vaga de Backend Pleno Python
 
-# As potenciais melhorias sugeridas foram implementadas:
+# 🔥 As potenciais melhorias sugeridas foram implementadas:
 * Criação da documentção  da API com  SWAGGER.
 * Criação de testes unitários 
 * Ajustando erro no campo ArrayField.
