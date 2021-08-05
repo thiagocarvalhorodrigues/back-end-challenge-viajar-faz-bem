@@ -3,15 +3,21 @@ Avaliação para vaga de Backend Pleno Python
 
 # As potenciais melhorias foram:
 * Criação da documentção  da API com  SWAGGER.
-* Criação de testes unitários.
+* Criação de testes unitários 
 * Ajustando erro no campo ArrayField.
 * Ajustado as rotas "/destinos" "/".
 * Retirado no Json o campo "Observação".
 * Ajustado requirements.txt.
 
 # Instruções da API SWAGGER:
+Interno:
 * Layout API SWAGGER: http://127.0.0.1:8000/docs/
 * Schema API SWAGGER: http://127.0.0.1:8000/openapi/
+
+Externo:
+http://162.240.3.106:37777/docs/
+http://162.240.3.106:37777/openapi/
+
 
 # Projeto já está no servidor rodando.
 Realizado o deploy da aplicação nos servidores da Hostagador.
@@ -83,6 +89,11 @@ DATABASES = {
 
     }
  }
+ 
+ ![image](https://user-images.githubusercontent.com/23345809/128272367-4f0c33b5-27e7-4595-ab11-6601d31bb834.png)
+
+* Para rodar os TESTE UNITÁRIOS. 
+ Digite: python manage.py test
 
 # Agradecimentos
  
