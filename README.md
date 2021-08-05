@@ -1,7 +1,7 @@
 # back-end-challenge-viajar-faz-bem.
 Avaliação para vaga de Backend Pleno Python
 
-# As potenciais melhorias foram:
+# As potenciais melhorias sugeridas foram implementadas:
 * Criação da documentção  da API com  SWAGGER.
 * Criação de testes unitários 
 * Ajustando erro no campo ArrayField.
@@ -37,7 +37,7 @@ Obs: todos as imagens dos links das urls estão armazenadas nos servidores, dent
 * Deploy no servidore da Hostgator.
 * Alterado banco de dados de sqlite para <i>POSTGRESQL.</i>
 * Criado storage na plataforma Azure para armazenar as imagens.
-* Implementando atributo "observacao":  dentro do ITEM.
+
 
 # Link's úteis.
 banco de dados PostreSQL v.13 Link para donwload (https://www.postgresql.org/).
