@@ -104,6 +104,6 @@ DATABASES = {
 
 # E agora foi Adriano?
 
-* No aguardo!!! 🚀
+* 🔥 No aguardo!!! 🚀
 
 
