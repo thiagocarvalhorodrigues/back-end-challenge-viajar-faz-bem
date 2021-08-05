@@ -19,7 +19,7 @@ Externo:
 * http://162.240.3.106:37777/openapi/
 
 
-# Projeto já está no servidor rodando.
+# ☁️ Projeto já está no servidor rodando.
 Realizado o deploy da aplicação nos servidores da Hostagador.
 * Acesso da aplicação: http://162.240.3.106:37777/ ou http://162.240.3.106:37777/admin  ( Para realizar os devidos testes manuais da aplicação ).
 * Usuário: thiago 
@@ -39,7 +39,7 @@ Obs: todos as imagens dos links das urls estão armazenadas nos servidores, dent
 * Criado storage na plataforma Azure para armazenar as imagens.
 
 
-# Link's úteis.
+# 🔗 Link's úteis.
 banco de dados PostreSQL v.13 Link para donwload (https://www.postgresql.org/).
 
 # 🚧 Configurando o projeto localmente
@@ -95,7 +95,7 @@ DATABASES = {
 * Para rodar os TESTE UNITÁRIOS. 
  Digite: python manage.py test
 
-# Agradecimentos
+# 🎉 Agradecimentos
  
  Venho agradecer por esse desafio, pois foi muito bacana entar desenvolvendo, espero que tenham gostado 
  e que possamos a vir a trabalhar juntos em breve.
