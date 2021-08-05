@@ -93,7 +93,7 @@ DATABASES = {
  ![image](https://user-images.githubusercontent.com/23345809/128272367-4f0c33b5-27e7-4595-ab11-6601d31bb834.png)
 
 * Para rodar os TESTE UNITÁRIOS. 
- Digite: python manage.py test
+ Digite: <i>python manage.py test</i>
 
 # 🎉 Agradecimentos
  
