@@ -5,7 +5,7 @@ Avaliação para vaga de Backend Pleno Python
 * Criação da documentção  da API com  SWAGGER.
 * Criação de testes unitários 
 * Ajustando erro no campo ArrayField.
-* Ajustado as rotas "/destinos" "/".
+* Ajustado as rotas "/destinos" , "/".
 * Retirado no Json o campo "Observação".
 * Ajustado requirements.txt.
 
