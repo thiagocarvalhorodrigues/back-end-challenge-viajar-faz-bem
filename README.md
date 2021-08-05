@@ -9,7 +9,7 @@ Avaliação para vaga de Backend Pleno Python
 * Retirado no Json o campo "Observação".
 * Ajustado requirements.txt.
 
-# Instruções da API SWAGGER:
+# 📄 Instruções da API SWAGGER:
 Interno:
 * Layout API SWAGGER: http://127.0.0.1:8000/docs/
 * Schema API SWAGGER: http://127.0.0.1:8000/openapi/
@@ -25,7 +25,7 @@ Realizado o deploy da aplicação nos servidores da Hostagador.
 * Usuário: thiago 
 * Senha: 1234
 
-# Informações.
+# ℹ️  Informações.
 
 Obs: todos as imagens dos links das urls estão armazenadas nos servidores, dentro de (storage) containers da Azure.
 * APP desenvolvido dentro das normas da PEP8.
@@ -42,7 +42,7 @@ Obs: todos as imagens dos links das urls estão armazenadas nos servidores, dent
 # Link's úteis.
 banco de dados PostreSQL v.13 Link para donwload (https://www.postgresql.org/).
 
-# Configurando o projeto localmente
+# 🚧 Configurando o projeto localmente
 
 1 Baixe o projeto:
 
@@ -74,7 +74,7 @@ Instalar o banco de dados Postgres Server:
 
 <i>Depois tente acessar e logar no Django Admin com o usuário e senha criado acima: http://localhost:8000/admin/ </i>
 
-# Informações extras:
+# ℹ️  Informações extras:
 
 * O sistema já vem configurado com o banco de dados conforme abaixo: 
 
