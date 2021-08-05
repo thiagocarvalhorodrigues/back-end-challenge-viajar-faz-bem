@@ -102,8 +102,8 @@ DATABASES = {
  MUITO OBRIGADO.
 
 
-# E agora foi Adriano?
+# ✈️ No aguardo!!! 🚀
 
-* ✈️ No aguardo!!! 🚀
+
 
 
