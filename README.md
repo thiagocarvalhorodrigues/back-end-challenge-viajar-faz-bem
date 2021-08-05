@@ -26,7 +26,7 @@ Obs: todos as imagens dos links das urls estão armazenadas nos servidores, dent
 * Python==3.9.6
 * djangorestframework==3.12.4
 
-
+ 
 # Diferenciais implementados
 * Deploy no servidore da Hostgator.
 * Alterado banco de dados de sqlite para <i>POSTGRESQL.</i>
@@ -67,6 +67,22 @@ Instalar o banco de dados Postgres Server:
 * senha: 1234
 
 <i>Depois tente acessar e logar no Django Admin com o usuário e senha criado acima: http://localhost:8000/admin/ </i>
+
+# Informações extras:
+
+* O sistema já vem configurado com o banco de dados conforme abaixo: 
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': "viajar_faz_bem",
+        'USER': "postgres",
+        'PASSWORD': "12345678",
+        'HOST': "189.34.18.253",
+        'PORT': "5432"
+
+    }
+ }
 
 # Agradecimentos
  
