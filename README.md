@@ -33,7 +33,7 @@ Obs: todos as imagens dos links das urls estão armazenadas nos servidores, dent
 * djangorestframework==3.12.4
 
  
-# Diferenciais implementados
+# 💡 Diferenciais implementados
 * Deploy no servidore da Hostgator.
 * Alterado banco de dados de sqlite para <i>POSTGRESQL.</i>
 * Criado storage na plataforma Azure para armazenar as imagens.
