@@ -15,8 +15,8 @@ Interno:
 * Schema API SWAGGER: http://127.0.0.1:8000/openapi/
 
 Externo:
-http://162.240.3.106:37777/docs/
-http://162.240.3.106:37777/openapi/
+* http://162.240.3.106:37777/docs/
+* http://162.240.3.106:37777/openapi/
 
 
 # Projeto já está no servidor rodando.
