@@ -1,4 +1,4 @@
-# back-end-challenge-viajar-faz-bem.
+# back-end-challenge-viajar-faz-bem. 🧑🏻‍🚀
 Avaliação para vaga de Backend Pleno Python
 
 # As potenciais melhorias sugeridas foram implementadas:
