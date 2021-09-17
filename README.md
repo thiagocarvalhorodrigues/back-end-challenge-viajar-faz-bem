@@ -97,10 +97,7 @@ DATABASES = {
 
 # 🎉 Agradecimentos
  
- Venho agradecer por esse desafio, pois foi muito bacana entar desenvolvendo, espero que tenham gostado 
- e que possamos a vir a trabalhar juntos em breve.
- MUITO OBRIGADO.
-
+ Venho agradecer por esse desafio, pois foi muito bacana entar desenvolvendo, espero que tenha gostado.
 
 # ✈️ No aguardo!!! 🚀
 
